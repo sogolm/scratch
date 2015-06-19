@@ -6,5 +6,5 @@ BOT_NAME = 'tutorial'
 
 SPIDER_MODULES = ['tutorial.spiders']
 NEWSPIDER_MODULE = 'tutorial.spiders'
-ITEM_PIPELINES = { 'tutorial.pipelines.JsonWriterPipeline':300 }
+ITEM_PIPELINES = {'tutorial.pipelines.JsonWriterPipeline' : 300}
 
